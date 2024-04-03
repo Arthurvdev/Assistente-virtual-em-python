@@ -72,9 +72,6 @@ if __name__ == "__main__":
         elif 'como você está' in comando and 'artemis' in comando:
             falar("Estou bem, obrigada")
         
-        elif 'quem é o amor da minha vida' in comando and 'artemis' in comando:
-            falar("A raiane de queiroz sousa é o amor da sua vida. Ela é a mulher mais linda do universo. O seu sonho é se casar com ela. Raiane, vou falar uma curiosidade sobre o arthur. Ele é louco por você e passa horas pensando em ti. Até mesmo quando me programou.  ")
-        
         elif 'hora' in comando and 'artemis' in comando:
             tempo()
             
