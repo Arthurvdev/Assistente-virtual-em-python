@@ -69,19 +69,5 @@ def comando_voz_usuario():
         maquina.runAndWait()
         webbrowser.open(google_pesquisa)
         
-    
-    elif 'quem é o amor da minha vida' in comando:
-        comando.replace('quem é o amor da minha vida', '')
-        texto = "A raiane de queiroz sousa é o amor da sua vida "
-        texto2 = "Ela é a mulher mais linda do universo"
-        texto3 = "O seu sonho é se casar com ela"
-        texto4 = "Raiane, vou falar uma curiosidade sobre o arthur. Ele é louco por você e passa horas pensando em ti. Até mesmo quando me programou."
-        maquina.say(texto)
-        maquina.say(texto2)
-        maquina.say(texto3)
-        maquina.say(texto4)
-        maquina.runAndWait()
-        
-    
 
 comando_voz_usuario()
